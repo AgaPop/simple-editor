@@ -72,9 +72,10 @@ body {
   padding: 10px 40px;
   text-transform: uppercase; 
   margin: 5px;
-}
-&__button:hover {
-  background-color: $lightblue;
+  transition: background-color .3s ease-in-out;  
+  &:hover {
+    background-color: $lightblue;
+  }
 }
 &__button-container{
   display: flex;

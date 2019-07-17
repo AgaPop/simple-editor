@@ -3,8 +3,8 @@ const name = document.querySelector('.form__input--name--js');
 const surname = document.querySelector('.form__input--surname--js');
 const description = document.querySelector('.form__textarea--js');
 
-const buttonLoad = document.querySelector('.form__button--load--js');
-const buttonSave = document.querySelector('.form__button--save--js');
+const buttonLoad = document.querySelector('.form__button--load-js');
+const buttonSave = document.querySelector('.form__button--save-js');
 
 
 
