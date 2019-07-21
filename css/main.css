@@ -378,10 +378,12 @@ body {
   color: white;
   padding: 10px 40px;
   text-transform: uppercase;
-  margin: 5px; }
-
-.form__button:hover {
-  background-color: #56CCF2; }
+  margin: 5px;
+  -webkit-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out; }
+  .form__button:hover {
+    background-color: #56CCF2; }
 
 .form__button-container {
   display: -webkit-box;

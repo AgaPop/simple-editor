@@ -2,12 +2,27 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My editor</title>
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My simple editor</title>
+  <meta name="description" content="Simple editor where you can save and load your data" />
 
+  <!-- Title -->
+  <meta property="og:title" content="Simple editor" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="Simple editor with local storage support" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="https://agapop.github.io/simple-editor/" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://github.com/AgaPop/simple-editor/blob/master/src/assets/img/cover.png" />
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="icon" type="image/png" href="assets/pwa/icons/editor.png" />
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
@@ -23,7 +38,8 @@
 
         <p>
           <label for="surname">Please enter your surname:<br />
-            <input class="form__input form__input--surname form__input--surname--js" type="text" name="mysurname" id="surname" required>
+            <input class="form__input form__input--surname form__input--surname--js" type="text" name="mysurname"
+              id="surname" required>
           </label>
         </p>
 
@@ -34,8 +50,8 @@
         </textarea>
         </p>
         <div class="form__button-container">
-          <button class="form__button form__button--load form__button--load--js">Load</button>
-          <button class="form__button form__button--save form__button--save--js">Save</button>
+          <button class="form__button form__button--load form__button--load-js">Load</button>
+          <button class="form__button form__button--save form__button--save-js">Save</button>
         </div>
       </form>
 
